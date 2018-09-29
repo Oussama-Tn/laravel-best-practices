@@ -483,7 +483,7 @@ Good:
 
 ```php
 session('cart');
-$request->name;
+$request->name; OR request('name'); // OR request('name', $default);
 ```
 
 More examples:
